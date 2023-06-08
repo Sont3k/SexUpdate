@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net481</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EXILED" Version="7.0.0-rc.3-1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp-firstpass">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\Assembly-CSharp-firstpass.dll</HintPath>
+      </Reference>
+      <Reference Include="CommandSystem.Core">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\CommandSystem.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="MapEditorReborn">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\MapEditorReborn.dll</HintPath>
+      </Reference>
+      <Reference Include="Mirror">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\Mirror.dll</HintPath>
+      </Reference>
+      <Reference Include="NorthwoodLib">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\NorthwoodLib.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>..\..\..\SCP Secret Laboratory\Assembly\UnityEngine.PhysicsModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
